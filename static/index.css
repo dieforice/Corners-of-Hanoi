@@ -1,0 +1,14 @@
+h3{
+  color: purple;
+}
+#grey_tag {
+  color: grey;
+}
+.card-girl-type{
+  min-height: 420px !important;
+  min-width: 350px !important;
+}
+.greyborder{
+  border-bottom-style: solid;
+  border-color: grey;
+}
