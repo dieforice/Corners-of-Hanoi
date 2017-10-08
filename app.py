@@ -20,7 +20,7 @@ def admin():
 
 @app.route('/delete_place/<place_id>')
 def delete_place(place_id):
-    place = PLaces.objects().with_id(place_id)
+    place = Places.objects().with_id(place_id)
     if place is not None:
         place.delete()
     return redirect('/admin')
