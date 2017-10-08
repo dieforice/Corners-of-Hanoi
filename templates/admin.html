@@ -29,7 +29,8 @@
             <td><a target="_blank" href="{{place.image}}">View Image</a></td>
             <td>
               <a href=""><i class="fa fa-pencil" aria-hidden="true"></i></a>
-              <a href="/delete_place/<place_id>"><i class="fa fa-trash" aria-hidden="true"></i></a>
+
+              <a href="/delete_place/{{place.id}}"><i class="fa fa-trash" aria-hidden="true"></i></a>
             </td>
           </tr>
           {% endfor %}
